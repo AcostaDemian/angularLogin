@@ -1,0 +1,13 @@
+<div class="body">
+
+  <div id="login">
+    <form (ngSubmit)="logear()">
+      <h1>Login</h1>
+      <input type="text" [(ngModel)]="persona.nombre" name="nombre" placeholder="Username" required>
+      <input type="password" class="form-control" [(ngModel)]="persona.password" name="password" placeholder="Password" required>
+      <button type="submit" >Sign in</button>
+    </form>
+  </div>
+  
+
+</div>
